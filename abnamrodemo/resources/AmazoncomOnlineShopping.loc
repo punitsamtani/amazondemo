@@ -1,0 +1,4 @@
+#
+#Thu Aug 02 13:57:40 IST 2018
+site.search.loc={"locator"\:"name\=site-search","desc"\:"site search loc"}
+twotabsearchtextbox.loc={"locator"\:"id\=twotabsearchtextbox","desc"\:"twotabsearchtextbox loc"}

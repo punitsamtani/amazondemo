@@ -1,0 +1,11 @@
+SCENARIO: Amazon
+META-DATA: {"description":"recorded scenario","requirementKey"= "AD-RQ-1"}
+	Given get 'https://www.amazon.com/'
+	When click on 'twotabsearchtextbox.loc'
+	And sendKeys 'echo' into 'twotabsearchtextbox.loc'
+	And submit 'site.search.loc'
+	When click on 'All.newEcho.ndGeneration.loc'
+	When click on 'add.to.cart.button.loc'
+	When click on 'a.button.input.loc'
+	Then assert 'Success message' is present
+END
